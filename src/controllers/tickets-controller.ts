@@ -35,3 +35,4 @@ export async function postTicket(req: AuthenticatedRequest, res: Response) {
     return res.status(httpStatus.NOT_FOUND).send(error);
   }
 }
+
